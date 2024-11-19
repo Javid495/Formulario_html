@@ -6,6 +6,18 @@ body{
 }
 div{
     padding-top: 10px;
-    
 }
-
+.enviar{
+  background-color: greenyellow;
+  border-radius: 10px;
+}
+.enviar:hover{
+  background-color: green;
+}
+.reiniciar{
+  background-color: red;
+  border-radius: 10px;
+}
+.reiniciar:hover{
+  background-color: crimson;
+}
