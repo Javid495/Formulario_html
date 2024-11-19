@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <section>
+    <ul>
+      <li>
+        <a href="index.html">Inicio</a>
+      </li>
+      <li>
+        <a href="contenido.html">Contenido</a>
+      </li>
+      <li>
+        <a href="contacto.html">Contacto</a>
+      </li>
+    </ul> 
+  </section>
+  <section>
+    <form action="index.html" method="get">
+      <div>
+        <label for="edad">Edad</label>  
+        <input type="number" id="edad" name="edad" placeholder="edad" step="2" max="10" > <!--Este imput me sirve para tomar un numero-->
+      </div>
+      <br>
+      <div>
+        <label for="contrasena">Contraseña</label> 
+        <input type="password" name="" id="contrasena" placeholder="Contraseña"> <!--Para ingresar contraseña-->
+      </div>
+      <br>
+      <div>
+        <label for="correo">Correo</label>
+        <input type="email" name="" id="correo"> <!--Para ingresar algun correo eletronico-->
+      </div>
+      <br>
+      <div>
+        <label for="date">Fecha</label>
+         <input type="date" name="" id="date"> <!--Para ingresar una fecha-->
+      </div>
+      <br>
+      <div>
+        <label for="hora">Hora</label>
+        <input type="time" name="" id="hora"> <!--Este imput me sirve para ingresar una hora-->
+      </div>
+      <br>
+      <div>
+        <label for="color">Color</label>
+        <input type="color" name="" id="color"> <!--Este imput me sirve para tomar un color-->
+      </div>
+      <br>
+      <div>
+        <label for="dia">Dia</label>
+        <input type="datetime-local" name="" id="dia"> <!--Este imput me sirve para toma una fecha y una hora-->
+      </div>
+      <br>
+      <div>
+        <input type="image" id="imagen" src="img/102570.jpg" width="150px" name="imagen"> <!--para subir una imagen?-->
+      </div>
+      <br>
+      <div>
+        <label for="selection">Marque el suiguente recuadro</label>
+        <input type="checkbox" name="selection" id=""> <!--para poner cajas de selection-->
+      </div>
+      <br>
+      <div>
+        <label for="archivo"></label>
+        <input type="file" name="archivo"> <!--sirve para subir algun archivo al formulario-->
+      </div>
+      <br>
+      <div>
+        <label for="rango">rango?</label> 
+        <input type="range"> <!--crea una barra de rango ....-->
+      </div>
+      <br>
+      <div>
+        <label for="Busqueda">Busqueda</label>
+        <input type="search"> <!--Implrementa una barra de busqueda-->
+      </div>
+      <br>
+      <div>
+        <input type="reset" value="Reiniciar?"> <!--Cumple la funcion de limpiar el formulario-->
+      </div>
+      <br>
+      <div>
+        <label for="link">Ingrese un enlace</label>
+        <input type="url" name="" id="link"> <!--Hace la funcion de recibir un enlace ingresado por el usuario-->
+      </div>
+      <br>
+      <div>
+        <input type="hidden" name=""> <!--Crea un campo oculto dentro del formulario-->
+      </div>
+      <br>
+      <div>
+        <label for="">Marque si</label>
+        <input type="radio"> <!--Crea un campo de seleccion unica-->
+      </div>
+      <br>
+      <div>
+        <input type="week"> <!--Crea un campo en el cual el usuario podra ingresar semana-->
+      </div>
+      <br>
+      <div>
+        <label for="">Sleccione la ciudad</label>
+        <select name="" id="seleccion">
+          <option value="">Seleccione</option>
+          <option value="giron">giron</option>
+          <option value="bucaramanga">Bucaramanga</option>
+          <option value="pidecuesta">Pidecuesta</option>
+          <option value="floridablanca">Floridablanca</option>
+        </select>
+      </div>
+      <br>
+      <div>
+        <label for="">Cuadro de texto</label>
+        <textarea name="" id="" cols="30"></textarea>
+      </div>
+      <button type="submit">Enviar</button> 
+    </form>
+  </section>
+</body>
+</html>
