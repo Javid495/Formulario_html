@@ -1,4 +1,11 @@
+body{
+  background-color: aqua;
+  flex: auto;
+  display: revert;
+  justify-items: center;
+}
 div{
     padding-top: 10px;
+    
 }
 
